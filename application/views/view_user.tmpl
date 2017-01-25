@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>%s</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <div><p><b><a href="../gbook/">Назад</a></b></p></div>   
+            
+            <!---warning mesg--->
+            <div><p><b><font color="red">%s</font></b></p></div>   
+            <form  method="post" action="action">
+            <div>
+                <label for="usr_login">Логин</label>
+                <input type="text" name="usr_login" title="Введите Ваш логин" />
+            </div>
+            
+            <div>    
+                <label for="usr_pass">Пароль</label>
+                <input type="password" name="usr_pass" />
+            </div>
+            %s
+            <div>
+                <input type="submit" value="%s" />
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
